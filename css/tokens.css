@@ -12,6 +12,7 @@
    --colour-surface-hover: #f2f2f2;
 
    --colour-border: #d1d1d1;
+   --colour-divider: #d1d1d1;
 
    --colour-primary: #0f6cbd;
    --colour-primary-hover: #115ea3;
@@ -143,4 +144,11 @@
    --button-padding-md: 16px;
    --button-padding-lg: 24px;
 
+   /* ==========================
+     Dividers
+     ========================== */
+
+   /* Borders */
+
+   --border-subtle: 1px solid var(--colour-divider);
 }

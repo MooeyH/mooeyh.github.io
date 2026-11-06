@@ -1,0 +1,9 @@
+.divider {
+    border: none;
+    border-top: var(--border-subtle);
+
+    margin-block: var(--space-7);
+
+    width: 100%;
+
+}
