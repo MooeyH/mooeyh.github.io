@@ -1,0 +1,45 @@
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.surface {
+  background: var(--colour-surface);
+}
+
+.shadow {
+  box-shadow: var(--shadow-md);
+}
+
+.rounded {
+  border-radius: var(--radius-lg);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.starter-card {
+  max-width: 680px;
+
+  padding: var(--space-8);
+
+  background: var(--colour-surface);
+
+  border: 1px solid var(--colour-border);
+
+  border-radius: var(--radius-xl);
+
+  box-shadow: var(--shadow-md);
+}
+
+.starter-card > * + * {
+  margin-top: var(--space-4);
+}

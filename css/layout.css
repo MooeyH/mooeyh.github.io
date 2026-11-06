@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--colour-background);
+}
+
+.container {
+  width: min(100% - 32px, var(--container-lg));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--space-9);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(320px, 1fr)
+  );
+}
+
+.stack > * + * {
+  margin-top: var(--space-4);
+}
+
+.page {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: var(--space-7);
+}
+
+.button-group {
+  margin-top: var(--space-7);
+
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
