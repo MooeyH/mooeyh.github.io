@@ -1,135 +1,146 @@
 :root {
 
-  /* ==========================
+   /* ==========================
      COLOURS
      ========================== */
 
-  --colour-text: #242424;
-  --colour-text-secondary: #616161;
+   --colour-text: #242424;
+   --colour-text-secondary: #616161;
 
-  --colour-background: #ffffff;
-  --colour-surface: #f8f8f8;
-  --colour-surface-hover: #f2f2f2;
+   --colour-background: #ffffff;
+   --colour-surface: #f8f8f8;
+   --colour-surface-hover: #f2f2f2;
 
-  --colour-border: #d1d1d1;
+   --colour-border: #d1d1d1;
 
-  --colour-primary: #0f6cbd;
-  --colour-primary-hover: #115ea3;
+   --colour-primary: #0f6cbd;
+   --colour-primary-hover: #115ea3;
 
-  --colour-success: #107c10;
-  --colour-warning: #ffb900;
-  --colour-danger: #d13438;
+   --colour-success: #107c10;
+   --colour-warning: #ffb900;
+   --colour-danger: #d13438;
 
-  /* ==========================
+   /* ==========================
      TYPOGRAPHY SCALE
      Fluent Inspired
      ========================== */
 
-  --text-xs: 12px;
-  --text-sm: 14px;
-  --text-base: 16px;
-  --text-lg: 20px;
-  --text-xl: 24px;
-  --text-2xl: 28px;
-  --text-3xl: 32px;
-  --text-4xl: 40px;
-  --text-5xl: 68px;
+   --text-xs: 12px;
+   --text-sm: 14px;
+   --text-base: 16px;
+   --text-lg: 20px;
+   --text-xl: 24px;
+   --text-2xl: 28px;
+   --text-3xl: 32px;
+   --text-4xl: 40px;
+   --text-5xl: 68px;
 
-  /* ==========================
+   /* ==========================
      LINE HEIGHTS
      ========================== */
 
-  --leading-xs: 16px;
-  --leading-sm: 20px;
-  --leading-base: 24px;
-  --leading-lg: 28px;
-  --leading-xl: 32px;
-  --leading-2xl: 36px;
-  --leading-3xl: 40px;
-  --leading-4xl: 52px;
-  --leading-5xl: 92px;
+   --leading-xs: 16px;
+   --leading-sm: 20px;
+   --leading-base: 24px;
+   --leading-lg: 28px;
+   --leading-xl: 32px;
+   --leading-2xl: 36px;
+   --leading-3xl: 40px;
+   --leading-4xl: 52px;
+   --leading-5xl: 92px;
 
-  /* ==========================
+   /* ==========================
      FONT WEIGHTS
      ========================== */
 
-  --weight-regular: 400;
-  --weight-medium: 500;
-  --weight-semibold: 600;
-  --weight-bold: 700;
+   --weight-regular: 400;
+   --weight-medium: 500;
+   --weight-semibold: 600;
+   --weight-bold: 700;
 
-  /* ==========================
+   /* ==========================
      SPACING
      Fluent 4px System
      ========================== */
 
-  --space-0: 0;
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 20px;
-  --space-6: 24px;
-  --space-7: 32px;
-  --space-8: 40px;
-  --space-9: 48px;
-  --space-10: 56px;
+   --space-0: 0;
+   --space-1: 4px;
+   --space-2: 8px;
+   --space-3: 12px;
+   --space-4: 16px;
+   --space-5: 20px;
+   --space-6: 24px;
+   --space-7: 32px;
+   --space-8: 40px;
+   --space-9: 48px;
+   --space-10: 56px;
 
-  /* ==========================
+   /* ==========================
      RADIUS
      ========================== */
 
-  --radius-none: 0;
-  --radius-sm: 2px;
-  --radius-md: 4px;
-  --radius-lg: 8px;
-  --radius-xl: 12px;
-  --radius-full: 9999px;
+   --radius-none: 0;
+   --radius-sm: 2px;
+   --radius-md: 4px;
+   --radius-lg: 8px;
+   --radius-xl: 12px;
+   --radius-full: 9999px;
 
-  /* ==========================
+   /* ==========================
      SHADOWS
      ========================== */
 
-  --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
-  --shadow-md: 0 4px 12px rgba(0,0,0,.10);
-  --shadow-lg: 0 8px 24px rgba(0,0,0,.12);
+   --shadow-sm: 0 1px 3px rgba(0, 0, 0, .08);
+   --shadow-md: 0 4px 12px rgba(0, 0, 0, .10);
+   --shadow-lg: 0 8px 24px rgba(0, 0, 0, .12);
 
-  /* ==========================
+   /* ==========================
      CONTAINERS
      ========================== */
 
-  --container-sm: 640px;
-  --container-md: 960px;
-  --container-lg: 1200px;
+   --container-sm: 640px;
+   --container-md: 960px;
+   --container-lg: 1200px;
 
-  /* ==========================
+   /* ==========================
      ICONS
      ========================== */
 
-  --icon-sm: 16px;
-  --icon-md: 24px;
-  --icon-lg: 32px;
+   --icon-sm: 16px;
+   --icon-md: 24px;
+   --icon-lg: 32px;
 
-  /* ==========================
+   /* ==========================
      MOTION
      ========================== */
 
-  --duration-fast: 150ms;
-  --duration-medium: 250ms;
-  --duration-slow: 350ms;
+   --duration-fast: 150ms;
+   --duration-medium: 250ms;
+   --duration-slow: 350ms;
 
-  --ease-standard: ease;
-  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+   --ease-standard: ease;
+   --ease-out: cubic-bezier(0, 0, 0.2, 1);
 
 
-/* Button Heights */
+   /* ==========================
+     BUTTONS
+     ========================== */
 
---button-height-sm: 32px;
---button-height-md: 40px;
---button-height-lg: 48px;
+   /* Button Heights */
 
-/* Focus */
+   --button-height-sm: 32px;
+   --button-height-md: 40px;
+   --button-height-lg: 48px;
+   --button-padding-md: 16px;
+   --button-padding-lg: 24px;
 
---focus-ring: 0 0 0 3px rgba(15,108,189,.25);
+   /* Focus */
+
+   --focus-ring: 0 0 0 3px rgba(15, 108, 189, .25);
+
+   /* Button Padding */
+
+   --button-padding-md: 16px;
+   --button-padding-lg: 24px;
 
 }
