@@ -1,0 +1,26 @@
+# Draft content
+
+drafts/
+
+# Work in progress case studies
+
+case-studies/wip/
+
+# Research notes
+
+notes/
+
+# Local reference material
+
+research/
+
+# Working documents
+
+*.pdf
+*.pptx
+*.docx
+
+# OS files
+
+.DS_Store
+Thumbs.db
